@@ -1,0 +1,20 @@
+<resources>
+    <!--standard-->
+    <dimen name="title_text_size">25sp</dimen>
+    <dimen name="text_text_size">15sp</dimen>
+    <dimen name="button_text_size">15sp</dimen>
+
+    <!--recycler_view_meeting_item.xml-->
+       <!--textview meeting participants-->
+
+    <dimen name="item_meeting_participants_layout_height">16dp</dimen>
+    <dimen name="item_meeting_participants_layout_marginEnd">4dp</dimen>
+    <dimen name="item_meeting_participants_text_size">12sp</dimen>
+
+    <!--imageview meeting delete-->
+    <dimen name="item_meeting_delete_image_layout_width">20dp</dimen>
+    <dimen name="item_meeting_delete_image_layout_height">20dp</dimen>
+
+
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.add.SetupSubjectFragment"
+    android:id="@+id/setup_subject_fragment"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/setup_subject_fragment_text_view_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/write_the_subject"
+        android:layout_gravity="center"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/setup_subject_fragment_text_view_subject_layout_margin_top"
+  />
+
+    <EditText
+        android:id="@+id/setup_subject_fragment_edit_text_subject"
+        android:layout_width="match_parent"
+        android:layout_marginStart="@dimen/setup_subject_fragment_edit_text_subject_layout_margin_start"
+        android:layout_marginEnd="@dimen/setup_subject_fragment_edit_text_subject_layout_margin_end"
+        android:layout_marginTop="@dimen/setup_subject_fragment_edit_text_subject_layout_margin_top"
+        android:layout_height="wrap_content"
+       android:layout_gravity="center"
+        android:hint="@string/subject"
+        android:textSize="@dimen/text_text_size"
+        android:autofillHints="@string/subject"
+        android:inputType="text"
+        android:backgroundTint="@color/grey"/>
+
+    <Button
+        android:id="@+id/setup_subject_fragment_button_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/setup_subject_fragment_button_next_layout_gravity_top"
+        android:text="@string/next"
+        android:textSize="@dimen/button_text_size"
+        android:layout_gravity="center"
+/>
+
+</LinearLayout>

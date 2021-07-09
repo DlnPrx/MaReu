@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.add.SetupDurationFragment"
+    android:orientation="vertical"
+    android:id="@+id/layout_setup_duration_fragment">
+
+    <TextView
+        android:id="@+id/fragment_setup_duration_text_view_choose_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_a_duration"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/fragment_setup_duration_text_view_choose_duration_layout_margin_top"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_setup_duration_radio_group">
+
+        <RadioButton
+            android:id="@+id/radio_button_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_text_size"
+            android:text="@string/_15_minutes" />
+
+        <RadioButton
+            android:id="@+id/radio_button_30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_text_size"
+            android:text="@string/_30_minutes" />
+
+        <RadioButton
+            android:id="@+id/radio_button_45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_text_size"
+            android:text="@string/_45_minutes" />
+
+        <RadioButton
+            android:id="@+id/radio_button_60"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_text_size"
+            android:text="@string/_60_minutes" />
+
+        <RadioButton
+            android:id="@+id/radio_button_90"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_text_size"
+            android:text="@string/_90_minutes" />
+
+        <RadioButton
+            android:id="@+id/radio_button_120"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_text_size"
+            android:text="@string/_120_minutes" />
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/fragment_setup_duration_next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:textSize="@dimen/button_text_size"
+        android:layout_gravity="center"/>
+</LinearLayout>

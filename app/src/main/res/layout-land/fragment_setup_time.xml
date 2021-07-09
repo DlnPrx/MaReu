@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.add.SetupTimeFragment"
+    android:id="@+id/layout_setup_time_fragment"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/fragment_setup_time_text_view_choose_hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/fragment_setup_time_text_view_choose_hour_layout_margin_top"
+        android:text="@string/choose_a_time"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold" />
+
+    <TimePicker
+        android:id="@+id/fragment_setup_time_time_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"
+        />
+
+    <Button
+        android:id="@+id/fragment_setup_time_button_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:textSize="@dimen/button_text_size"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

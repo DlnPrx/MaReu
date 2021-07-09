@@ -1,0 +1,98 @@
+<resources>
+<!--standard-->
+    <dimen name="title_text_size">40sp</dimen>
+    <dimen name="text_text_size">30sp</dimen>
+    <dimen name="button_text_size">25sp</dimen>
+
+    <!-- fragment_setup_date.xml -->
+    <dimen name="fragment_setup_date_choose_date_text_size">40sp</dimen>
+    <dimen name="fragment_setup_date_choose_date_layout_margin_top">40dp</dimen>
+    <dimen name="fragment_setup_date_next_button_text_size">25sp</dimen>
+
+    <!-- fragment_setup_duration.xml -->
+    <!--text view-->
+    <dimen name="fragment_setup_duration_text_view_choose_duration_text_size">40sp</dimen>
+    <dimen name="fragment_setup_duration_text_view_choose_duration_layout_margin_top">25sp</dimen>
+    <!--button-->
+    <dimen name="fragment_setup_duration_next_button_text_size">25sp</dimen>
+
+    <!-- fragment_setup_participant.xml -->
+    <!--button-->
+    <dimen name="fragment_setup_participant_button_validate_text_size">15sp</dimen>
+
+    <!-- fragment_setup_room.xml -->
+    <!--textview-->
+    <dimen name="fragment_setup_room_text_view_choose_room_text_size">25sp</dimen>
+    <dimen name="fragment_setup_room_text_view_choose_room_layout_margin_top">25dp</dimen>
+
+    <!-- fragment_setup_subject.xml -->
+    <!--textview-->
+    <dimen name="setup_subject_fragment_text_view_subject_text_size">25sp</dimen>
+    <dimen name="setup_subject_fragment_text_view_subject_layout_margin_top">25dp</dimen>
+    <!--edittext-->
+    <dimen name="setup_subject_fragment_edit_text_subject_text_size">15sp</dimen>
+    <dimen name="setup_subject_fragment_edit_text_subject_layout_margin_start">20dp</dimen>
+    <dimen name="setup_subject_fragment_edit_text_subject_layout_margin_end">20dp</dimen>
+    <dimen name="setup_subject_fragment_edit_text_subject_layout_margin_top">25dp</dimen>
+    <!--button-->
+    <dimen name="setup_subject_fragment_button_next_text_size">15sp</dimen>
+    <dimen name="setup_subject_fragment_button_next_layout_gravity_top">25dp</dimen>
+
+    <!-- fragment_setup_time.xml -->
+    <!--textview-->
+    <dimen name="fragment_setup_time_text_view_choose_hour_text_size">25sp</dimen>
+    <dimen name="fragment_setup_time_text_view_choose_hour_layout_margin_top">25dp</dimen>
+    <!--button-->
+    <dimen name="fragment_setup_time_button_next">15dp</dimen>
+
+    <!-- fragment_time_filter.xml -->
+    <!--button-->
+    <dimen name="fragment_time_filter_button_validate_text_size">15sp</dimen>
+
+    <!-- recycler_view_meeting_item.xml  -->
+
+    <!--imageview meeting color-->
+    <dimen name="item_meeting_color_layout_width">75dp</dimen>
+    <dimen name="item_meeting_color_layout_height">75dp</dimen>
+    <dimen name="item_meeting_color_layout_margin_start">4dp</dimen>
+    <!--textview meeting name-->
+    <dimen name="item_meeting_name_layout_margin_start">4dp</dimen>
+    <dimen name="item_meeting_name_text_size">18sp</dimen>
+    <!--textview meeting participants-->
+
+    <dimen name="item_meeting_participants_layout_height">0dp</dimen>
+    <dimen name="item_meeting_participants_layout_marginEnd">4dp</dimen>
+    <dimen name="item_meeting_participants_text_size">18sp</dimen>
+    <!--textview meeting time-->
+    <dimen name="item_meeting_time_margin_top">16dp</dimen>
+    <dimen name="item_meeting_time_text_size">18sp</dimen>
+    <!--textview meeting room-->
+    <dimen name="item_meeting_room_layout_height">0dp</dimen>
+    <dimen name="item_meeting_room_layout_marginTop">24dp</dimen>
+    <dimen name="item_meeting_room_margin_bottom">8dp</dimen>
+    <dimen name="item_meeting_room_text_size">18sp</dimen>
+    <!--imageview meeting delete-->
+    <dimen name="item_meeting_delete_image_layout_width">35dp</dimen>
+    <dimen name="item_meeting_delete_image_layout_height">35dp</dimen>
+
+
+    <!-- recycler_view_participant_item.xml -->
+    <!--    textview-->
+    <dimen name="item_participant_address_layout_margin_start">44dp</dimen>
+    <dimen name="item_participant_address_layout_margin_top">16dp</dimen>
+    <dimen name="item_participant_address_layout_margin_bottom">16dp</dimen>
+    <dimen name="item_participant_address_text_size">20sp</dimen>
+    <!--   checkbox -->
+    <dimen name="item_participant_checkbox_layout_margin_end">30dp</dimen>
+
+    <!-- recycler_view_room_item.xml -->
+    <!--    textview-->
+    <dimen name="item_room_name_layout_margin_top">8dp</dimen>
+    <dimen name="item_room_name_layout_margin_bottom">8dp</dimen>
+    <!--    imageview-->
+    <dimen name="item_room_color_layout_width">70dp</dimen>
+    <dimen name="item_room_color_layout_height">70dp</dimen>
+
+
+
+</resources>

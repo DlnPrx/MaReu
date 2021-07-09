@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.add.SetupDateFragment"
+    android:id="@+id/layout_setup_date_fragment"
+    android:orientation="vertical">
+<TextView
+    android:id="@+id/fragment_setup_date_choose_date"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/choose_a_date"
+    android:textSize="@dimen/title_text_size"
+    android:textStyle="bold"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/fragment_setup_date_choose_date_layout_margin_top"/>
+    <DatePicker
+        android:id="@+id/fragment_setup_date_date_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+
+        />
+
+    <Button
+        android:id="@+id/fragment_setup_date_next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:textSize="@dimen/fragment_setup_date_next_button_text_size"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
+
+

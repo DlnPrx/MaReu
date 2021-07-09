@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp">
+
+    <ImageView
+        android:id="@+id/item_meeting_color"
+        android:layout_width="@dimen/item_meeting_color_layout_width"
+        android:layout_height="@dimen/item_meeting_color_layout_height"
+        android:layout_marginStart="@dimen/item_meeting_color_layout_margin_start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/image_room" />
+
+    <TextView
+        android:id="@+id/item_meeting_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="@string/subject"
+        android:textSize="@dimen/item_meeting_name_text_size"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/item_meeting_color"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/item_meeting_participants"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/participants"
+        android:textSize="@dimen/item_meeting_participants_text_size"
+        app:layout_constraintEnd_toStartOf="@+id/item_meeting_delete_image"
+        app:layout_constraintStart_toEndOf="@+id/item_meeting_color"
+        app:layout_constraintTop_toBottomOf="@+id/item_meeting_room" />
+
+
+    <TextView
+        android:id="@+id/item_meeting_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time"
+        android:textSize="@dimen/item_meeting_time_text_size"
+
+        app:layout_constraintBottom_toBottomOf="@+id/item_meeting_room"
+        app:layout_constraintEnd_toStartOf="@+id/item_meeting_duration"
+        app:layout_constraintTop_toTopOf="@+id/item_meeting_room" />
+
+    <TextView
+        android:id="@+id/item_meeting_room"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/item_meeting_room_layout_height"
+        android:layout_marginStart="4dp"
+        android:text="@string/Room"
+        android:textSize="@dimen/item_meeting_room_text_size"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/item_meeting_color"
+        app:layout_constraintTop_toBottomOf="@+id/item_meeting_name" />
+
+    <ImageView
+        android:id="@+id/item_meeting_delete_image"
+        android:layout_width="@dimen/item_meeting_delete_image_layout_width"
+        android:layout_height="@dimen/item_meeting_delete_image_layout_height"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_delete"
+        android:contentDescription="@string/delete_image" />
+
+    <TextView
+        android:id="@+id/item_meeting_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:text="@string/duration"
+        android:textSize="@dimen/item_meeting_time_text_size"
+
+        app:layout_constraintBottom_toBottomOf="@+id/item_meeting_time"
+        app:layout_constraintEnd_toStartOf="@+id/item_meeting_delete_image"
+        app:layout_constraintTop_toTopOf="@+id/item_meeting_time" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
