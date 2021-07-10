@@ -20,6 +20,7 @@
         android:layout_marginTop="@dimen/item_room_name_layout_margin_top"
         android:layout_marginBottom="@dimen/item_room_name_layout_margin_bottom"
         android:text="@string/room"
+        android:textSize="@dimen/text_text_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.049"
@@ -35,5 +36,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_room_color_red"
-        android:contentDescription="@string/image_room"/>
+        android:contentDescription="@string/image_room" />
 </androidx.constraintlayout.widget.ConstraintLayout></androidx.cardview.widget.CardView>

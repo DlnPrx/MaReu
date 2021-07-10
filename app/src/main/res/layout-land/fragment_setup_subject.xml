@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     tools:context=".ui.add.SetupSubjectFragment"
     android:id="@+id/setup_subject_fragment"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center">
 
 
     <TextView
@@ -29,9 +30,10 @@
        android:layout_gravity="center"
         android:hint="@string/subject"
         android:textSize="@dimen/text_text_size"
-        android:autofillHints="@string/subject"
-        android:inputType="text"
-        android:backgroundTint="@color/grey"/>
+
+        android:backgroundTint="@color/grey"
+                android:autofillHints="@string/subject"
+        android:inputType="text" />
 
     <Button
         android:id="@+id/setup_subject_fragment_button_next"

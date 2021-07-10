@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     tools:context=".ui.add.SetupTimeFragment"
     android:id="@+id/layout_setup_time_fragment"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center">
 
 
     <TextView

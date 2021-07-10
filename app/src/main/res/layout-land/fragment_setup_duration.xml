@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     tools:context=".ui.add.SetupDurationFragment"
     android:orientation="vertical"
-    android:id="@+id/layout_setup_duration_fragment">
+    android:id="@+id/layout_setup_duration_fragment"
+    android:gravity="center">
 
     <TextView
         android:id="@+id/fragment_setup_duration_text_view_choose_duration"
